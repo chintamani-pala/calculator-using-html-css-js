@@ -11,7 +11,7 @@
     <div class="content">
       <!-- scroll bar of the login div -->
       <marquee style="color: #9c9388a1" direction="left" scrollamount="3"
-        >Designed By <b><a style="text-decoration: none; color: aqua;" href="https://www.linkedin.com/in/ravi-teja-78b1b5249/">Ravi Teja </a></b>And Functionality By <b><a style="text-decoration: none; color: aqua;" href="https://github.com/chintamani-pala/">Chintamani Pala</a> </b><span id="contactspan"></span
+        >Created By <b><a style="text-decoration: none; color: aqua;" href="https://www.linkedin.com/in/ravi-teja-78b1b5249/">Ravi Teja </a></b>And <b><a style="text-decoration: none; color: aqua;" href="https://github.com/chintamani-pala/">Chintamani Pala</a> </b><span id="contactspan"></span
       ></marquee>
       <div class="box1">
         <input type="text" id="inputfield" class="input" placeholder="enter" value="0" disabled/>
