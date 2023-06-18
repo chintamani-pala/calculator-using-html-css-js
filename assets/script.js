@@ -34,7 +34,7 @@ $("button").click(function () {
         let b = document.getElementById(this.id)
         if(inputfield.value[inputfield.value.length-1]=="+" || inputfield.value[inputfield.value.length-1]=="-" || inputfield.value[inputfield.value.length-1]=="*" || inputfield.value[inputfield.value.length-1]=="/"){
             
-            inputfield.value=valueofin.slice(0, valueofin.length - 1)
+//             inputfield.value=valueofin.slice(0, valueofin.length - 1)
             inputfield.value = inputfield.value + "" + b.value
         }
         if(!(inputfield.value[inputfield.value.length-1]==b.value)){
