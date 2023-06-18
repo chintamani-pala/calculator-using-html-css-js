@@ -1,7 +1,9 @@
 let inputfield = document.getElementById("inputfield")
 let buttons = document.getElementsByTagName("button")
 $("button").click(function () {
-
+if(inputfield.value=="Error"){
+            inputfield.value=""
+        }
     if (this.id == "back") {
         let valueofin = inputfield.value;
         let newval = valueofin.slice(0, valueofin.length - 1)
