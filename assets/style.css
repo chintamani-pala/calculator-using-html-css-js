@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+      html {
+        background: url("background.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        /*height: 630px; */
+        background-attachment: fixed;
+      }
+
+      body {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        background-size: cover;
+      }
+
+      .content {
+        width: 350px;
+        background-color: #323030ba;
+        border-radius: 10px;
+        padding: 40px 30px;
+        margin-top: 100px;
+        box-shadow: -3px -3px 9px #aaa9a9a2,
+          3px 3px 7px rgba(147, 149, 151, 0.671);
+      }
+
+      .content .text {
+        font-size: 25px;
+        font-weight: 600;
+        margin-bottom: 35px;
+        color: rgb(247, 233, 233);
+      }
+
+      .content .field {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        position: relative;
+      }
+
+      .field input {
+        height: 100%;
+        width: 100%;
+        padding-left: 45px;
+        font-size: 18px;
+        outline: none;
+        border: none;
+        color: #e0d2d2;
+        border: 1px solid rgba(255, 255, 255, 0.438);
+        border-radius: 8px;
+        background: rgba(105, 105, 105, 0);
+      }
+
+      .field input::placeholder {
+        color: #e0d2d2a6;
+      }
+      .field:nth-child(2) {
+        margin-top: 20px;
+      }
+
+      .field span {
+        position: absolute;
+        width: 50px;
+        line-height: 50px;
+        color: #ffffff;
+      }
+
+      button {
+        margin: 25px 0 0 0;
+        width: 100%;
+        height: 50px;
+        color: rgb(238, 226, 226);
+        font-size: 18px;
+        font-weight: 600;
+        border: 2px solid rgba(255, 255, 255, 0.438);
+        border-radius: 8px;
+        background: rgba(105, 105, 105, 0);
+        margin-top: 40px;
+        outline: none;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+
+      .content .or {
+        color: rgba(255, 255, 255, 0.733);
+        margin-top: 9px;
+      }
+
+      .icon-button {
+        margin-top: 15px;
+      }
+      .icon-button span {
+        padding-left: 17px;
+        padding-right: 17px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        color: rgba(244, 247, 250, 0.795);
+        border-radius: 5px;
+        line-height: 30px;
+        background: rgba(255, 255, 255, 0.164);
+        backdrop-filter: blur(10px);
+      }
+      .icon-button span.facebook {
+        margin-right: 17px;
+      }
+      button:hover,
+      .icon-button span:hover {
+        background-color: #babecc8c;
+      }
+
+body {
+    margin: 0;
+  }
+  .box1 {
+    /* position: relative; */
+    top: 60px;
+    left: 500px;
+    /* width: 320px; */
+    height: 400px;
+    background-color: transparent;
+    border-radius: 35px;
+    /* border: 7px rgb(159, 177, 209) solid; */
+  }
+  .box2 {
+    width: 300px;
+    height: 350px;
+    /* position: absolute; */
+    top: 200px;
+    border-radius: 30px;
+  }
+  button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    margin: 3px;
+    font-size: larger;
+    font-weight: 500;
+    color: azure;
+    background-color: rgb(161, 161, 202);
+    font-size: 25px;
+  }
+  button:hover {
+    background-color: rgb(187, 187, 241);
+  }
+
+  .zero {
+    width: 130px;
+    border-radius: 40px;
+  }
+  
+  .color {
+    background-color: rgb(238, 149, 32);
+  }
+  .input {
+    text-align-last: end;
+    margin-top: 40px;
+    width: 90%;
+    margin-left: 12px;
+    height: 35px;
+    background: transparent;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    border: black;
+  }
+  footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
