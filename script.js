@@ -34,6 +34,10 @@ $("button").click(function() {
     }
     else{
         let b=document.getElementById(this.id)
+        if(inputfield.value=="Error"){
+            inputfield.value=""
+            
+        }
         inputfield.value=inputfield.value+""+b.innerText
     }
    
