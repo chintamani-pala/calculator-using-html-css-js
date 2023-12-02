@@ -34,7 +34,6 @@ This project is a basic calculator application built with HTML, CSS, and JavaScr
 
 # Contributing
    **Contributions are welcome! Feel free to fork this repository, make improvements, and submit a pull request.**
-# Credits
-   - **Credit API-Ninjas for providing the quote service.**
+
 # License
    **This project is licensed under the MIT License.**
