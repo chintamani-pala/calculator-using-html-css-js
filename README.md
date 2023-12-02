@@ -13,7 +13,6 @@ This project is a basic calculator application built with HTML, CSS, and JavaScr
 - HTML
 - CSS
 - JavaScript
-- API
 
 ## Usage
 
